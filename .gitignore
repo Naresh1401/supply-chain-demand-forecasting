@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+
+# Models
+models/*.joblib
+models/*.pkl
+models/*.json
+
+# Results
+results/figures/*.png
+results/figures/*.html
+results/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
